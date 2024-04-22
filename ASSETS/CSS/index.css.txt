@@ -1,0 +1,46 @@
+.headerArea {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* Text color (white) */
+    padding: 2%; /* Add some padding for spacing (2% of the viewport width) */
+    display: flex; /* Flexbox layout for positioning elements */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Image styling */
+  .headerImage {
+    max-width: 20%; /* Set a maximum width for the image (20% of the viewport width) */
+    margin-right: 2%; /* Add some spacing between image and text (2% of the viewport width) */
+  }
+  
+  /* Title and subtitle container */
+  .titleSubtitleContainer {
+    flex-grow: 1; /* Allow the container to grow and take available space */
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2.4vw; /* Set font size relative to viewport width (2.4% of the viewport width) */
+    font-weight: bold;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1.6vw; /* Set font size relative to viewport width (1.6% of the viewport width) */
+    margin-top: 1%; /* Add spacing between title and subtitle (1% of the viewport width) */
+  }
+  
+  /* Try Slides button styling */
+  .trySlidesButton {
+    background-color: #4285f4; /* Google blue color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.6vw;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trySlidesButton:hover {
+    background-color: #3367d6; /* Darker blue on hover */
+  }
